@@ -1,7 +1,10 @@
 <template>
   <div id="app">
+    <div class="input">
     <label for="number">Input Number: </label>
     <input type="number" v-model="limit" />
+
+    </div>
     <Numbers/>
   </div>
 </template>
@@ -22,12 +25,18 @@ export default {
 </script>
 
 <style scoped>
+.input{
+  margin-left: auto;
+  margin-right: auto;
+}
 input{
-  height: 20px;
+  height: 40px;
   width: 210px;
-  font-size: 1rem;
+  font-size: 2rem;
+  margin-bottom: 80px;
 }
 label{
   font-family: sans-serif;
+  font-size: 2rem;
 }
 </style>

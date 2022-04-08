@@ -73,6 +73,7 @@ export default {
   div{
     font-size: 2rem;
     font-family: sans-serif;
+    border-radius: 12px;
   }
   input{
     height: 30px;
