@@ -29,7 +29,8 @@ export default {
       for(var i = 0; i < this.limit; i++)
       {
         // numbers = [...numbers, i];
-        numbers.push(i)
+        //instead of using the line above i used numbers.push
+        numbers.push(i) 
       }
       return numbers.sort(() => Math.random() - 0.5);
     },
